@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100dvh;
+  background-image: url('Assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 120px;
+
+}
+
+.banner-section  {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 16px;
+}
+
+.brand-name  {
+    font-size: 40px;
+    color: blue;
+}
+
+.btn-primary {
+    padding: 16px 32px;
+    border: none;
+    border-radius: 8px;
+    background-color: blue;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.banner-desc {
+    text-align: center;
+}
+
+.banner-desc h1 {
+    font-size: 80px;
+    margin-top: 20%;
+    margin-bottom: 32px;
+}
+
+/* action  */
+
+.action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 16px;
+    margin-bottom: 32px;
+}
+.action-desc{
+     text-align: center;
+}
+.action-desc h2{
+    font-size: 50px;
+    margin-top: 20%;
+    margin-bottom: 16px;
+}
+.action-desc p{
+    color: #252432;
+    margin-bottom: 16px;
+}
+.part3{
+    text-align: center;
+    margin: 120px 200px;
+     padding-left: 160px;
+     padding-right: 200px;
+     background-color: lightblue;
+}
+.jtpu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 64px;
+}
+.heading{
+    font-size: 40px;
+}
+.bc{
+    font-size: 64px;
+    font-weight: bold;
+    color: blue;
+}
+.b3{
+    color: #252432;
+}
+
+
+
+.av {
+    display: flex;
+}
