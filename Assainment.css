@@ -2,16 +2,17 @@
     margin: 0;
     padding: 0;
 }
-
+/* Header */
 header {
     height: 100dvh;
-  background-image: url('Assets/Hero-bg.png');
+    background-image: url('Assets/Hero-bg.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     margin-bottom: 120px;
 
 }
+
 
 .banner-section  {
     display: flex;
@@ -66,11 +67,11 @@ header {
     color:#252432;
     margin-bottom: 16px;
 }
+/* part3 */
 .part3{
     text-align: center;
     margin: 120px 200px;
-     padding-left: 160px;
-     padding-right: 200px;
+     padding: 20px;
      background-color: lightblue;
 }
 .jtpu{
@@ -91,14 +92,15 @@ header {
     color: #706f80;
     
 }
+/* part4 */
 .part4{
-    text-align: center;
     margin-bottom: 40   px;
-    
+}
+.part4 h1{
+    text-align: center;
 }
 .Reviewer-container{
     display: flex;
-    text-align: center;
     margin: 0 20%;
 }
 .part4 h1{
@@ -116,7 +118,7 @@ header {
 .R-img img{
     border-radius: 50%;
 }
-
+/* part5 */
 .part5{
     text-align: center;
 }
@@ -131,8 +133,56 @@ header {
 .p5d1 p{
     margin-bottom: 20px;
 }
-
-
-.av {
+/* part6 */
+.part6 {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 115px;
+    margin: 0 150px 14px 150px;
+
+    h2 {
+        font-size: 97px;
+        font-weight: bold;
+        line-height: 1.2;
+    }
 }
+
+.form-container {
+    width: 100%;
+    max-width: 500px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Inter";
+}
+
+input[type="email"], input[type="text"], textarea {
+    border: none;
+    width: 100%;
+    padding: 20px 271px 20px 32px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 1px #D6DDED;
+}
+
+input[type="email"]::placeholder , input[type="text"]::placeholder , textarea::placeholder {
+    font-size: 20px;
+    font-family: "Inter";
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+.form-container button {
+    width: 100%;
+    margin-bottom: 71px;
+}
+
