@@ -141,16 +141,17 @@ header {
     gap: 115px;
     margin: 0 150px 14px 150px;
 
-    h2 {
-        font-size: 97px;
-        font-weight: bold;
-        line-height: 1.2;
-    }
+}
+
+.part6 h2 {
+    font-size: 97px;
+    font-weight: bold;
+    line-height: 1.2;
 }
 
 .form-container {
-    width: 100%;
     max-width: 500px;
+    width: 100%;
 }
 
 .form-group {
